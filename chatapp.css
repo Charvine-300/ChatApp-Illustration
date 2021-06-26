@@ -192,10 +192,6 @@ body {
     border-bottom-right-radius: 0px;
 }
 /*===========  Element Rules  ==========*/
-h1, h2, p {
-    margin: 0px;
-}
-
 h1 {
     font-size: 15px;
     color: #e7e2e2;
