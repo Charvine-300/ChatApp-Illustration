@@ -15,9 +15,7 @@ body {
     flex-direction: column;
 }
 
-
-/*===========  CLass Rules  ==========*/
-.sidechick {
+#sidechick {
     width: 400px;
     height: 650px;
     background-color: #a167a1;
@@ -25,7 +23,7 @@ body {
     border-bottom-right-radius: 300px;
 }
 
-.phone {
+#phone {
     width: 290px;
     height: 650px;
     margin-top: 60px;
@@ -36,6 +34,8 @@ body {
     box-shadow: 10px 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+
+/*===========  CLass Rules  ==========*/
 .topbar {
     width: 150px;
     height: 10px;
