@@ -1,7 +1,7 @@
 var stud = document.getElementById("sidechick");
 var stunner = document.getElementById("phone");
 
-if (document.body.clientWidth > 1000) {
+if (document.body.clientWidth < 1000) {
     if (document.body.clientWidth > 375) {
         stud.style.width = `${document.body.clientWidth - 125}px`;
     }
