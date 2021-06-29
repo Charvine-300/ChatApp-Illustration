@@ -1,263 +1,14 @@
-body {
-    margin: 0px;
-    background-color: #ffffff;
-}
-
-#container {
-    width: 1440px;
-    height: 800px;
-    margin: 0px auto;
-    background-color: #ffffff;
-}
-
-#flexbox {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-#sidechick {
-    width: 400px;
-    height: 650px;
-    background-color: #a167a1;
-    border-bottom-left-radius: 290px;
-    border-bottom-right-radius: 300px;
-}
-
-#phone {
-    width: 290px;
-    height: 650px;
-    margin-top: 60px;
-    margin-left: 270px;
-    position: absolute;
-    border-radius: 30px;
-    background-color: #000000;
-    box-shadow: 10px 5px 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-
-/*===========  CLass Rules  ==========*/
-.topbar {
-    width: 150px;
-    height: 10px;
-    margin: 0px auto;
-    background-color: #ffffff;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.top {
-    width: 260px;
-    height: 90px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    background: linear-gradient( 90deg, #945c94 50%, #da84da);
-}
-
-.chatrect {
-    width: 260px;
-    height: 530px;
-    background-color: #ffffff;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.arrow {
-    width: 10px;
-    height: 10px;
-    margin-top: 30px;
-    margin-left: 10px;
-    border-radius: 10px;
-    border-color: #a167a1;
-}
-
-.sender {
-    width: 20px;
-    height: 20px;
-    margin-top: 7px;
-    margin-right: 15px;
-    border-radius: 20px;
-    border-color: #e9e7e7;
-}
-
-.dot {
-    font-size: 20px;
-    line-height: 5px;
-    color: #e7e2e2;
-    margin-top: 21px;
-    position: absolute;
-    margin-left: 240px;
-    font-weight: lighter;
-}
-
-.chat {
-    font-size: 13px;
-    color: #000000;
-    max-width: 140px;
-    padding: 0px 5px 0px 5px;
-}
-
-.circle {
-    width: 15px;
-    height: 15px;
-    margin-top: 12px;
-    margin-left: 10px;
-    border-radius: 20px;
-    position: absolute;
-    border: 1px solid #e7e2e2;
-}
-
-.response {
-    font-size: 13px;
-    color: #000000;
-    max-width: 150px;
-    padding-left: 5px;
-}
-
-.photos {
-    width: 155px;
-    height: 55px;
-    margin-top: 135px;
-    margin-left: 100px;
-    position: absolute;
-    background-color: #ffffff;
-}
-
-.pay {
-    width: 195px;
-    height: 40px;
-    margin-top: 370px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background: linear-gradient( 90deg, #945c94 50%, #da84da);
-}
-
-.engine {
-    width: 240px;
-    height: 40px;
-    margin-top: 475px;
-    border-radius: 30px;
-    background-color: #e9e7e7;
-
-}
-
-.title {
-    font-size: 50px;
-    color: #551155;  
-    text-align: center; 
-    margin: 20px 0px 0px 0px;
-}
-
-.summary {
-    padding: 10px;
-    font-size: 25px; 
-    color: #808080; 
-    text-align: center; 
-    font-family: helvetica; 
-}
-
-.signature {
-    padding: 20px;
-    font-size: 23px;
-    color: #551155; 
-    text-align: right; 
-    font-style: italic; 
-    font-weight: bolder; 
-    font-family: helvetica; 
-} 
-
-.client {
-    width: 160px;
-    height: 55px;
-    position: absolute;
-    margin-top: 185px;
-    margin-left: 90px;
-    background-color: #dad8da;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 0px;
-}
-
-.client2 {
-    width: 120px;
-    height: 40px; 
-    position: absolute;
-    margin-top: 245px;
-    margin-left: 128px;
-    background-color: #dad8da;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 0px;
-}
-/*===========  Element Rules  ==========*/
-h1 {
-    font-size: 15px;
-    color: #e7e2e2;
-    margin-top: 27px;
-    margin-left: 85px;
-    line-height: 5px;
-    font-family: helvetica;
-
-}
-
-img {
-    width: 30px;
-    height: 30px;
-    margin-top: 20px;
-    margin-left: 10px;
-    border-radius: 30px;
-    border: 2px solid #ffffff;
-}
-
-.photos img {
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-    margin: 0px 5px 10px 0px;
-}
-
-span {
-    font-size: 20px;
-    color: #ffffff;
-    font-weight: bolder;
-}
-
-article {
-    width: 155px;
-    height: 55px;
-    position: absolute;
-    margin: 10px 0px 10px 10px;
-    background-color: #dad8da;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-section {
-    width: 390px;
-    height: 300px;
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 800px;
-}
-
-
-
-/*===========  Media Query  ===========*/
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 1100px) {
     body {
         margin: 0px;
         background-color: #ffffff;
     }
     
     #container {
-        width: 100%;
-        height: 1200px;
+        width: 1440px;
+        height: 800px;
         margin: 0px auto;
-        background-color: #eeebee;
+        background-color: #ffffff;
     }
     
     #flexbox {
@@ -265,27 +16,28 @@ section {
         flex-wrap: wrap;
         flex-direction: column;
     }
-
+    
     #sidechick {
-        width: 250px;
-        height: 500px;
+        width: 400px;
+        height: 650px;
         background-color: #a167a1;
+        border-bottom-left-radius: 290px;
         border-bottom-right-radius: 300px;
+    }
+    
+    #phone {
+        width: 290px;
+        height: 650px;
+        margin-top: 60px;
+        margin-left: 270px;
+        position: absolute;
+        border-radius: 30px;
+        background-color: #000000;
+        box-shadow: 10px 5px 5px 10px rgba(0, 0, 0, 0.5);
     }
     
     
     /*===========  CLass Rules  ==========*/
-    #phone {
-        width: 290px;
-        height: 650px;
-        margin-top: 80px;
-        margin-left: 60px;
-        position: absolute;
-        border-radius: 30px;
-        background-color: #000000;
-        box-shadow: -9px 10px 12px 5px rgba(0, 0, 0, 0.5);
-    }
-    
     .topbar {
         width: 150px;
         height: 10px;
@@ -314,7 +66,7 @@ section {
     .arrow {
         width: 10px;
         height: 10px;
-        margin-top: 25px;
+        margin-top: 30px;
         margin-left: 10px;
         border-radius: 10px;
         border-color: #a167a1;
@@ -333,7 +85,7 @@ section {
         font-size: 20px;
         line-height: 5px;
         color: #e7e2e2;
-        margin-top: 16px;
+        margin-top: 21px;
         position: absolute;
         margin-left: 240px;
         font-weight: lighter;
@@ -392,14 +144,14 @@ section {
     }
     
     .title {
-        font-size: 45px;
+        font-size: 50px;
         color: #551155;  
         text-align: center; 
         margin: 20px 0px 0px 0px;
     }
     
     .summary {
-        padding: 20px;
+        padding: 10px;
         font-size: 25px; 
         color: #808080; 
         text-align: center; 
@@ -445,7 +197,7 @@ section {
     h1 {
         font-size: 15px;
         color: #e7e2e2;
-        margin-top: 22px;
+        margin-top: 27px;
         margin-left: 85px;
         line-height: 5px;
         font-family: helvetica;
@@ -455,7 +207,7 @@ section {
     img {
         width: 30px;
         height: 30px;
-        margin-top: 15px;
+        margin-top: 20px;
         margin-left: 10px;
         border-radius: 30px;
         border: 2px solid #ffffff;
@@ -486,11 +238,259 @@ section {
     }
     
     section {
-        width: 100%;
+        width: 390px;
         height: 300px;
-        margin: 780px 0px 0px 0px;
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 800px;
     }
-    
+}
+
+
+
+
+/*===========  Mobile Design  ===========*/
+body {
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+#container {
+    width: 100%;
+    height: 1200px;
+    margin: 0px auto;
+    background-color: #eeebee;
+}
+
+#flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#sidechick {
+    width: 250px;
+    height: 500px;
+    background-color: #a167a1;
+    border-bottom-right-radius: 300px;
+}
+
+
+/*===========  CLass Rules  ==========*/
+#phone {
+    width: 290px;
+    height: 650px;
+    margin-top: 80px;
+    margin-left: 60px;
+    position: absolute;
+    border-radius: 30px;
+    background-color: #000000;
+    box-shadow: -9px 10px 12px 5px rgba(0, 0, 0, 0.5);
+}
+
+.topbar {
+    width: 150px;
+    height: 10px;
+    margin: 0px auto;
+    background-color: #ffffff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.top {
+    width: 260px;
+    height: 90px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: linear-gradient( 90deg, #945c94 50%, #da84da);
+}
+
+.chatrect {
+    width: 260px;
+    height: 530px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.arrow {
+    width: 10px;
+    height: 10px;
+    margin-top: 25px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border-color: #a167a1;
+}
+
+.sender {
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+    margin-right: 15px;
+    border-radius: 20px;
+    border-color: #e9e7e7;
+}
+
+.dot {
+    font-size: 20px;
+    line-height: 5px;
+    color: #e7e2e2;
+    margin-top: 16px;
+    position: absolute;
+    margin-left: 240px;
+    font-weight: lighter;
+}
+
+.chat {
+    font-size: 13px;
+    color: #000000;
+    max-width: 140px;
+    padding: 0px 5px 0px 5px;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    margin-top: 12px;
+    margin-left: 10px;
+    border-radius: 20px;
+    position: absolute;
+    border: 1px solid #e7e2e2;
+}
+
+.response {
+    font-size: 13px;
+    color: #000000;
+    max-width: 150px;
+    padding-left: 5px;
+}
+
+.photos {
+    width: 155px;
+    height: 55px;
+    margin-top: 135px;
+    margin-left: 100px;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.pay {
+    width: 195px;
+    height: 40px;
+    margin-top: 370px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient( 90deg, #945c94 50%, #da84da);
+}
+
+.engine {
+    width: 240px;
+    height: 40px;
+    margin-top: 475px;
+    border-radius: 30px;
+    background-color: #e9e7e7;
+
+}
+
+.title {
+    font-size: 45px;
+    color: #551155;  
+    text-align: center; 
+    margin: 20px 0px 0px 0px;
+}
+
+.summary {
+    padding: 20px;
+    font-size: 25px; 
+    color: #808080; 
+    text-align: center; 
+    font-family: helvetica; 
+}
+
+.signature {
+    padding: 20px;
+    font-size: 23px;
+    color: #551155; 
+    text-align: right; 
+    font-style: italic; 
+    font-weight: bolder; 
+    font-family: helvetica; 
+} 
+
+.client {
+    width: 160px;
+    height: 55px;
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 90px;
+    background-color: #dad8da;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0px;
+}
+
+.client2 {
+    width: 120px;
+    height: 40px; 
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 128px;
+    background-color: #dad8da;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 0px;
+}
+/*===========  Element Rules  ==========*/
+h1 {
+    font-size: 15px;
+    color: #e7e2e2;
+    margin-top: 22px;
+    margin-left: 85px;
+    line-height: 5px;
+    font-family: helvetica;
+
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 30px;
+    border: 2px solid #ffffff;
+}
+
+.photos img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 0px 5px 10px 0px;
+}
+
+span {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+article {
+    width: 155px;
+    height: 55px;
+    position: absolute;
+    margin: 10px 0px 10px 10px;
+    background-color: #dad8da;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+section {
+    width: 100%;
+    height: 300px;
+    margin: 780px 0px 0px 0px;
 }
 
 
